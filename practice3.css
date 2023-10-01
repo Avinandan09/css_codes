@@ -1,0 +1,45 @@
+#first{
+    color: aqua;
+    background-color: yellow;
+    text-align:center;
+    text-decoration: dotted;
+    text-transform: capitalize;
+    height: 50px;
+    width: 125px;
+    border-style: solid;
+    border-color:brown;
+    border-width: 10px;
+    border-radius: 50%;
+}
+div{
+    display: inline-block;
+}
+#ab{
+    height:100px;
+    width:100px;
+    text-align: center;
+    border-style: solid;
+    border-color:purple;
+    border-radius:25%;
+    border-width:10px;
+    padding: 10px;
+    margin: 20px;
+}
+#cd{
+    height:100px;
+    width:100px;
+    text-align: center;
+    border-style: solid;
+    border-color:green;
+    border-radius:25%;
+    border-width:10px;
+}
+#ef{
+    height:100px;
+    width:100px;
+    text-align: center;
+    border-style:solid;
+    border-color:yellow;
+    border-radius:25%;
+    border-width:10px;
+}

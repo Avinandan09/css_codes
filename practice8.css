@@ -1,0 +1,82 @@
+body{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+div{
+    height:100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    border:3px solid black;
+}
+#container{
+    height: 500px;
+    width: 800px;
+    border:5px solid black;
+    /*margin-left: 30%;*/
+    /*default it takes a row only*/
+    display: flex;
+}
+#container1{
+        height: 500px;
+        width: 800px;
+        border:5px solid black;
+        /*margin-left: 30%;*/
+        /*default it takes a row only*/
+        display: flex;
+        flex-direction: row-reverse;
+}
+#container2{
+    height: 500px;
+    width: 800px;
+    border:5px solid black;
+    /*margin-left: 30%;*/
+    /*default it takes a row only*/
+    display: flex;
+    flex-direction: column;
+}
+#container3{
+    height: 500px;
+    width: 800px;
+    border:5px solid black;
+    /*margin-left: 30%;*/
+    /*default it takes a row only*/
+    display: flex;
+    flex-direction: column-reverse;
+}
+#container4{
+    height: 500px;
+    width: 800px;
+    border:5px solid black;
+    /*margin-left: 30%;*/
+    /*default it takes a row only*/
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+#container5{
+    height: 500px;
+    width: 800px;
+    border:5px solid black;
+    /*margin-left: 30%;*/
+    /*default it takes a row only*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#box1{
+    background-color: cyan;
+}
+#box2{
+    background-color: purple;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: red;
+}
+#box5{
+    background-color:yellow;
+}

@@ -1,0 +1,19 @@
+div{
+    height:100px;
+    width: 100px;
+    background-color: cyan;
+    border:5px solid black;
+    display: inline-block;
+    margin:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+#box1{
+    position: fixed;
+    top:0;
+}
+#box3{
+    position:sticky;
+    top:0;
+}
