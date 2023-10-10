@@ -5,7 +5,9 @@ h1,h2{
     font-weight:700;
 }
 #just{
+font-size: 20px;
 text-align: center;
+text-transform:lowercase;
 }
 a{
     font-size: 20px;

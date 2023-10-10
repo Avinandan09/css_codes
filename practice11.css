@@ -1,0 +1,80 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#first{
+    background-color: purple;
+    height: 180px;
+    width:180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-size: 35px; 
+    border-radius: 20%;
+}
+#second{
+    background-color: rgb(17, 77, 231);
+    height: 180px;
+    width:180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-size: 35px; 
+    margin-top: 15px;
+    border-radius: 20%;
+}
+#third{
+    background-color: rgb(43, 187, 21);
+    height: 180px;
+    width:180px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-size: 35px; 
+    margin-top: 15px;
+    border-radius: 20%;
+}
+/*div{
+    transition-property: all;//That is used to tranistion in every elemn i the div's and if none selected then 
+    Nothing will work what transiion is included also hover color change
+}*/
+
+#first:hover{
+    transform: rotate(45deg);
+    transition-duration: 3s;
+    transition-timing-function: ease-in;/*It is used to framinng like fps way the transitions*/
+    transition-delay: 2s;
+    background-color: red;
+    font-size:50px;
+}
+#second:hover{
+    transition: all 2s ease-out 1s;/* here is aother way to write the tranistion porperty in any css object*/
+                                /* tranistion: property|duration| Time function |delays*/
+                                /*here it is not working dont know why You have to comment it out  */
+    background-color: yellow;
+}
+#third:hover{
+    /* transform:rotateX(30deg); */
+    /* transform:rotateY(40deg);  */
+    /* transform: rotateZ(40deg); */
+    background-color: rgb(20, 109, 211);
+}
+#first:active{
+    background-color: aqua;
+}
+#second:active{
+    background-color: purple;
+}
+#third:active{
+    background-color: black;
+}
